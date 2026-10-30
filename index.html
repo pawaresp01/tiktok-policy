@@ -3,89 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- จุดแก้ที่ 1: บรรทัดนี้คือการดึง icon.png มาโชว์บนแท็บเบราว์เซอร์ให้ตรงกับแอป -->
     <link rel="icon" type="image/png" href="icon.png">
-    
     <title>AutoFlywheel - Video Automation Tool</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9fafb;
-            color: #333;
-        }
-        header {
-            background-color: #000;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .app-icon {
-            width: 120px;
-            height: 120px;
-            border-radius: 20px;
-            margin-bottom: 20px;
-        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 0; background-color: #f9fafb; color: #333; }
+        header { background-color: #000; color: #fff; padding: 1rem 0; text-align: center; }
+        .container { max-width: 800px; margin: 40px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+        .app-icon { width: 120px; height: 120px; border-radius: 20px; margin-bottom: 20px; }
         h1 { margin-top: 0; }
-        .footer-links {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-        }
-        .footer-links a {
-            color: #007bff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        .footer-links a:hover {
-            text-decoration: underline;
-        }
+        .footer-links { margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; }
+        .footer-links a { color: #007bff; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        .footer-links a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-
     <header>
         <h2>AutoFlywheel Studio</h2>
     </header>
-
     <div class="container">
-        <!-- โชว์โลโก้ให้คนตรวจเห็นชัดๆ ว่าตรงกับในระบบ -->
         <img src="icon.png" alt="AutoFlywheel Icon" class="app-icon">
-        
         <h1>Streamline Your TikTok Content</h1>
         <p>AutoFlywheel is an internal automation tool designed for creators to seamlessly transfer generated video content directly into their TikTok Drafts for final review and manual publishing.</p>
-        
         <p><strong>Features:</strong></p>
         <ul style="list-style: none; padding: 0;">
             <li>✅ Secure Authentication</li>
             <li>✅ Direct Draft Uploads</li>
             <li>✅ Full Creator Control</li>
         </ul>
-
         <div class="footer-links">
-            <!-- คนตรวจจะเช็ก 2 ลิงก์นี้ครับว่ามีไหม -->
-            <a href="#privacy-policy">Privacy Policy</a>
-            <a href="#terms-of-service">Terms of Service</a>
-        </div>
-        
-        <!-- เนื้อหา Policy สั้นๆ ซ่อนไว้ด้านล่าง (คนตรวจเห็นว่ามีก็พอ) -->
-        <div id="privacy-policy" style="text-align: left; margin-top: 50px; font-size: 0.9em; color: #666;">
-            <h3>Privacy Policy & Terms of Service</h3>
-            <p>AutoFlywheel respects your privacy. We only request the minimum required permissions (user.info.basic and video.upload) to push video files to your draft folder. We do not store your TikTok passwords, and we do not publish videos without your explicit consent within the TikTok app. By using this internal tool, you agree to comply with TikTok's community guidelines.</p>
+            <!-- ลิงก์ถูกเปลี่ยนให้ชี้ไปที่ไฟล์ใหม่แล้ว -->
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
         </div>
     </div>
-
 </body>
 </html>
